@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.handler = void 0;
+//The function of lambda with a name (handler) 
+async function handler(event, context) {
+    console.log("request:", event);
+    return {
+        statusCode: 200,
+        headers: { "Content-Type": "text/plain" },
+        body: `Hello, Mishaal khan The Cloud Architect!. You've hit ${event.path}\n`,
+    };
+}
+exports.handler = handler;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5lZHguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmVkeC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFNQywrQ0FBK0M7QUFDekMsS0FBSyxVQUFVLE9BQU8sQ0FBQyxLQUEyQixFQUFDLE9BQWdCO0lBQ3hFLE9BQU8sQ0FBQyxHQUFHLENBQUMsVUFBVSxFQUFFLEtBQUssQ0FBQyxDQUFDO0lBQy9CLE9BQU87UUFDTCxVQUFVLEVBQUUsR0FBRztRQUNmLE9BQU8sRUFBRSxFQUFFLGNBQWMsRUFBRSxZQUFZLEVBQUU7UUFDekMsSUFBSSxFQUFFLHdEQUF3RCxLQUFLLENBQUMsSUFBSSxJQUFJO0tBQzdFLENBQUM7QUFDSixDQUFDO0FBUEQsMEJBT0MiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1xyXG4gICAgQVBJR2F0ZXdheVByb3h5RXZlbnQsXHJcbiAgICBBUElHYXRld2F5UHJveHlSZXN1bHQsXHJcbiAgICBDb250ZXh0LFxyXG4gIH0gZnJvbSBcImF3cy1sYW1iZGFcIjtcclxuICBcclxuIC8vVGhlIGZ1bmN0aW9uIG9mIGxhbWJkYSB3aXRoIGEgbmFtZSAoaGFuZGxlcikgXHJcbmV4cG9ydCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKGV2ZW50OiBBUElHYXRld2F5UHJveHlFdmVudCxjb250ZXh0OiBDb250ZXh0KTogUHJvbWlzZTxBUElHYXRld2F5UHJveHlSZXN1bHQ+IHtcclxuICBjb25zb2xlLmxvZyhcInJlcXVlc3Q6XCIsIGV2ZW50KTtcclxuICByZXR1cm4ge1xyXG4gICAgc3RhdHVzQ29kZTogMjAwLFxyXG4gICAgaGVhZGVyczogeyBcIkNvbnRlbnQtVHlwZVwiOiBcInRleHQvcGxhaW5cIiB9LFxyXG4gICAgYm9keTogYEhlbGxvLCBNaXNoYWFsIGtoYW4gVGhlIENsb3VkIEFyY2hpdGVjdCEuIFlvdSd2ZSBoaXQgJHtldmVudC5wYXRofVxcbmAsXHJcbiAgfTtcclxufSJdfQ==
