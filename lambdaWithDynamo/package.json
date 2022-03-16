@@ -1,8 +1,8 @@
 {
-  "name": "lambda",
+  "name": "lambda_with_dynamo",
   "version": "0.1.0",
   "bin": {
-    "lambda": "bin/lambda.js"
+    "lambda_with_dynamo": "bin/lambda_with_dynamo.js"
   },
   "scripts": {
     "build": "tsc",
@@ -20,11 +20,9 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/aws-apigateway": "^1.148.0",
     "@aws-cdk/aws-appsync-alpha": "^2.16.0-alpha.0",
-    "@aws-cdk/aws-lambda": "^1.148.0",
-    "@types/aws-lambda": "^8.10.93",
     "aws-cdk-lib": "^2.16.0",
+    "aws-sdk": "^2.1092.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.16"
   }

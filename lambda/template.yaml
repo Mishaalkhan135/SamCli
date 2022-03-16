@@ -184,7 +184,7 @@ Resources:
   CDKMetadata:
     Type: AWS::CDK::Metadata
     Properties:
-      Analytics: v2:deflate64:H4sIAAAAAAAA/1WP0U7DMAxFv2XvqaGAkHjshngCgcoHTFliitcmqWqHaar67yQpiPHkc21dX/sG6ju43ugTV8b21UAHmN9Fm16l1n4etDtYDfNT9EYoeLX78Jf8hpMj5qQWRdrB3IYB8yDXRfHtXjOjMDS5JA3baHqUrWZUeqROC570GebnEtQiSzNSWfCHjTEhelGPOA7h7DBh6l6odHBXUldI1hAngyXkV/zsXPkF5TPY3FppWVQ5MPvJd3nwGmWM8s+VeBe8JSnv+mARjnz1Vd/DA9SbIxNVU7qTHEK71m8cv0Y4XgEAAA==
+      Analytics: v2:deflate64:H4sIAAAAAAAA/1WQ0U7DMAxFv2XvqWEgIfHYDe2Jaah8wJQlpnhtkqp2mKaq/06SghhPPtfW9XXyAOsnuF/pC1fGdlVPJ5jeRZtOpdZx6rU7WQ3TLnojFLzafvhbfsPREXNSsyLtYGpCj3mQ66z48aiZURjqXJKGTTQdykYzKj1QqwUv+grTawlqkKUeqCz4w9qYEL2oFxz6cHWYMHVvVDq4LakLJGuIo8ES8it+di68R/kMNrcWmmdVDsx+8m0eHKIMUf65Em+DtyTluT5YhDPffaUPfIb16sxE1ZjuJIfQLPUbuwfEI14BAAA=
     Metadata:
       aws:cdk:path: LambdaStack/CDKMetadata/Default
     Condition: CDKMetadataAvailable
